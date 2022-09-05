@@ -1,12 +1,12 @@
 html, body {
   height: 100%;
   width: 100%;
-	background-color: #220040;
-	color: #D7EFFC;
+	background-color: #a770f9;
+	color: #ffffff;
 }
 
 .body-element {
-	border: 3px solid blue;
+	/*border: 3px solid blue;*/
 }
 
 /* Menu bar stuff */
@@ -14,7 +14,8 @@ menu, ul {
   display: flex;
   list-style: none;
   padding: 0;
-  width: 400px;
+  width: 0px;
+  background-color: #a770f9;
 }
 
 li {
@@ -26,11 +27,10 @@ button {
 }
 
 /* The div containing the head elements, i.e. 'title' */
-#head-container {
-	/* Temporary, let's me see what the format is doing */
+/*#head-container {
+	/* Temporary, let's me see what the format is doing 
 	border: 3px solid blue;
-	
-}
+}*/
 
 /* Contains the title text at the top of the page */
 #title {
